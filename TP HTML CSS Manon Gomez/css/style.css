@@ -1,0 +1,234 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*body*/
+body{
+    background-color: white;
+    font-family: Roboto, Sans-serif, Fantasy;
+}
+/*header*/
+.fixe{
+    display: block;
+position: fixed;
+top: 0px;
+width: 100%;
+font-size: 20px;
+background-color:white;
+z-index: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.navFixe{
+    display: flex;
+}
+.navFixe li{
+    margin: 2%;
+    list-style: none;
+}
+.navFixe li a{
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.gradian{
+    text-transform: uppercase;
+	background: linear-gradient(to right,  #3399ff 0%, #000000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gradian:hover{
+    text-transform: uppercase;
+    background: linear-gradient(to right,  #990000 0%,  #000000 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.logoPng{
+    width: 13%;
+}
+/*carousel section*/
+.carouselText{
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    bottom: 47%;
+    width: 100%;
+    text-align: center;
+}
+/*services section*/
+.sectionText{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.sectionTitle{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    color: #4d0000
+}
+.gradianText{
+     text-transform: uppercase;
+	background: linear-gradient(to right,  #ffffff 0%, #000000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+hr{
+    width: 11%;
+    background-color: #006bb3; 
+    line-height: 10px;
+    height: 2px;;
+}
+.contentServices{
+    width: 100%;
+    display: flex;
+}
+.servicesList{
+    width: 50%;
+}
+.servicesImg{
+    width: 40%;
+    left: 0;
+    margin-top: 3%;
+}
+.list li{
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+.listInline{
+    display: inline-block;
+    font-size: 30px;
+    margin:2%;
+}
+.titleInline{
+    display: inline-block;
+    font-size: 30px;
+}
+.listP{
+    margin:2%;
+}
+.red{
+    color: #4d0000;
+}
+.blue{
+    color: #004d80;
+}
+.red:hover{
+    color: #004d80;
+}
+.blue:hover{
+    color: #4d0000;
+}
+/*skills section*/
+
+.parallax {
+    background-image: url('../medias/slider1.jpg');
+    height: auto;
+    padding: 1em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*portfolio section*/
+.portfolioImg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5%;
+}
+.portfolioAllImg{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+        color:#004d80;
+}
+.portfolioButton{
+    background-color: #004d80;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+}
+.portfolioButton:hover{
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+}
+/*contact section*/
+.socialMedia{
+    display: flex;
+    justify-content: center;
+}
+.flation{
+    margin: 1%;
+}
+.license{
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    margin: 1%;
+}
