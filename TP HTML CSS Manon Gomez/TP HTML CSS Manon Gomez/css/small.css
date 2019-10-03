@@ -1,0 +1,51 @@
+/*header*/
+/*in all sections*/
+.sectionTitle{
+    text-align: center;
+    font-size: 40px;
+}
+.gradianText{
+    color: black;
+    background: inherit;
+    -webkit-text-fill-color: inherit;
+    text-align: center;
+    font-size: 20px;
+    margin: 1%;
+}
+/* canva section*/
+.canvaTitle{
+    margin-top: 20%;
+}
+/* services section*/
+.services{
+    padding-top: 180px;
+}
+/*skills section*/
+.skillsPourcent li{
+    width: 40%;
+}
+.skillsPourcent{
+    margin: 0 auto;
+    text-align: center;
+}
+/*portfolio scetion*/
+.portfolioAllImg{
+    display: inherit;
+}
+.portfolioImg{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 8%;
+}
+/*contact section*/
+.socialMedia{
+    display: inherit;
+    text-align: center;
+}
+.flation{
+    margin: inherit;
+}
+.flation img{
+    width: 25%;
+}
+/*footer*/
