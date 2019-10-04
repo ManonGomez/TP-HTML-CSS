@@ -1,8 +1,10 @@
 /*header*/
-.show-menu-btn,.hide-menu-btn{
+.show-menu-btn,
+.hide-menu-btn {
     display: block;
-  }
-  .menu{
+}
+
+.menu {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -13,27 +15,41 @@
     padding: 80px 0;
     line-height: normal;
     transition: 0.7s;
-  }
-  .menu a{
+}
+
+.menu a {
     display: block;
     padding: 20px;
-  }
-  .hide-menu-btn{
+}
+
+.hide-menu-btn {
     position: absolute;
     top: 40px;
     right: 40px;
-  }
-  #chk:checked ~ .menu{
-    right: 0;
-  }
-/*in all sections*/
-.sectionTitle{
-    text-align: center;
-    font-size: 40px;
-    margin-top:3em;
 }
 
-.gradianText{
+#chk:checked~.menu {
+    right: 0;
+}
+
+/*in all sections*/
+.sectionTitle {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3em;
+}
+.sectionTitle {
+    font-size: 2em;
+    padding: 2%;
+}
+
+.normalTitle {
+    font-size: 2em;
+   padding: 2%;
+
+}
+
+.gradianText {
     color: black;
     background: inherit;
     -webkit-text-fill-color: inherit;
@@ -41,77 +57,124 @@
     font-size: 20px;
     margin: 1%;
 }
+
 /* canva section*/
-.canvaTitle{
+.canvaTitle {
     margin-top: 20%;
+    padding: 5%;
 }
+
 /* services section*/
-.services{
-    padding-top: 180px;
+.services {
+    padding-top: 80px;
+}
+.listInline{
+    display: block;
+    text-align: center;
+}
+.titleInline{
+text-align: center;
+display: flex;
+justify-content: center; 
+}
+.listP{
+    text-align: center;
 }
 /*skills section*/
-.skillsPourcent li{
+.skillsPourcent li {
     width: 40%;
 }
-.skillsPourcent{
+
+.skillsPourcent {
     margin: 0 auto;
     text-align: center;
 }
-/*portfolio scetion*/
-.portfolioAllImg{
+
+/*portfolio section*/
+.portfolioAllImg {
     display: inherit;
 }
-.portfolioImg{
+
+.portfolioImg {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 8%;
 }
-.portfolioPadding{
+
+.portfolioPadding {
     padding-bottom: 2%;
 }
+
 /*contact section*/
-.socialMedia{
+.socialMedia {
     display: inherit;
     text-align: center;
 }
-.flation{
+
+.flation {
     margin: inherit;
 }
-.flation img{
-    width: 25%;
+
+.flation img {
+    width: 5em;
 }
+
 /*about section*/
-.aboutContainer{
+.aboutContainer {
     display: block;
 }
-.storyJohn{
+
+.storyJohn {
     flex: inherit;
 }
-.profil{
+
+.profil {
     flex: inherit;
     text-align: center;
 }
-.johnButton{
+
+.johnButton {
     flex: inherit;
 }
+.storyJohn p{
+    padding: 5%;
+}
+.opinion{
+    padding: 5%;
+}
 /*opinion section*/
-.container{
+.container {
     display: block;
 }
-.card{
+
+.card {
     width: 100%;
     margin: 2% 0;
 }
-  
+
 .card:not(:first-child) {
-    margin-left:inherit;
+    margin-left: inherit;
 }
+
 .card:hover {
     transform: inherit;
     transition: inherit;
-  }
-  .card:hover ~ .card {
+}
+
+.card:hover~.card {
     left: inherit;
-    transition:inherit;
-  }
-/*footer*/
+    transition: inherit;
+}
+/*connect page*/
+.connectDiv .row{
+    margin-right: inherit;
+    margin-left: inherit;
+    display: block;
+}
+.connectDiv .col{
+    margin: 2%;
+}
+/*media section*/
+.medias{
+    padding: 2%;
+}
