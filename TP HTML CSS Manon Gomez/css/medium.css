@@ -1,3 +1,18 @@
 /*header*/
-/*section*/
+/*services section*/
+.contentServices{
+    display: inherit;
+}
+.servicesList{
+    width: 100%;
+}
+.servicesImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* contact section*/
+.flation img{
+  /*  width: 70%;*/
+}
 /*footer*/
